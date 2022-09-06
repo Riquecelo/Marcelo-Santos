@@ -1,0 +1,43 @@
+.inte{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inte h3{
+    color: orange;
+    margin-left: 30px;
+}
+
+.inte .container_inte{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 15px;
+}
+
+.inte .container_inte .card_inte{
+    width: 150px;
+    height: 200px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: .50s;
+    
+}
+
+.inte .container_inte .card_inte:hover{
+    background: linear-gradient(90deg, rgb(252, 230, 106), orange, orangered);
+    transform:scale(1.1);
+    color: black;
+    font-weight: bold;
+}
+
+.inte .container_inte .card_inte img{
+    width: 80px;
+    height: 80px;
+}

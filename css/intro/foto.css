@@ -1,0 +1,32 @@
+.foto{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.foto .losango{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(27, 27, 27);
+    rotate: 45deg;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 3px 3px 10px black;
+}
+.foto .losango .img{
+    width: 140%;
+    height: 140%;
+    position: absolute;
+    left: -45px;
+    
+    rotate: -45deg;
+    background-image: url('../../img/Marcelo-perfil.png');
+    
+    background-size:  cover;
+    filter: brightness(1.1) contrast(1.1);
+    
+}

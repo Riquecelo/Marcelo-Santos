@@ -1,0 +1,54 @@
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-1, .logo-2, .logo-3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.logo-1{
+    background-image: url(../../img/headphone-front-color.png);
+}
+.logo-2{
+    background-image: url(../../img/play-front-color.png);
+}
+.logo-3{
+    background-image: url(../../img/notebook-front-color.png);
+}
+.text-1, .text-2, .text-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+}
+.text-1:hover ,.text-2:hover, .text-3:hover{
+    animation: rotateText 15s linear infinite;
+}
+
+.text-1 span, .text-2 span, .text-3 span{ 
+    position: absolute;
+    left:  50%;
+    top: -16%;
+    font-size: 1.2rem;
+    transform-origin: 0 100px;   
+}
+
+@keyframes rotateText{
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}

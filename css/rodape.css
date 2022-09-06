@@ -1,0 +1,43 @@
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    box-shadow: -3px -3px 10px black;
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(40, 41, 43);
+}
+
+footer ul{
+    width: 95%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li{
+    width: 80px;
+    height: 20px;
+    
+}
+
+footer ul li a{     
+    background: -webkit-linear-gradient(left,  white, orange, orangered 100%);
+        
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: .70s;
+}
+
+footer ul li a:hover{
+    background: -webkit-linear-gradient(left, orangered, orange, white 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border-bottom: solid 1px orangered;
+}

@@ -1,0 +1,58 @@
+.intro div{
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.intro .titulos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro .titulos .box_titulos{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 300px;
+    align-items: flex-start;
+    
+}
+
+.intro .titulos .box_titulos,h2, h3{
+    margin-bottom: 20px;
+}
+
+
+.intro .titulos .box_titulos h2{
+    font-size: 50px;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(left,  white, orange, orangered 100%);
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.intro .titulos .box_titulos button{
+    font-size: 20px;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(252, 230, 106), orange, orangered);
+    border: none;
+    cursor: pointer;
+    transition: .50s;
+}
+.intro .titulos .box_titulos button:hover{
+    background: linear-gradient(90deg, orangered, orange, rgb(252, 230, 106));
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+}
