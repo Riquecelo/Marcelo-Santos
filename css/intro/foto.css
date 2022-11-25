@@ -30,3 +30,31 @@
     filter: brightness(1.1) contrast(1.1);
     
 }
+
+@media screen and (max-width:1024px){
+    .foto{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .foto .losango{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .foto{
+        width: auto;
+    }
+    .foto .losango{
+        width: 100px;
+        height: 100px;
+    }
+    .foto .losango .img{
+        width: 155%;
+        height: 155%;
+        left: -27px;
+    }
+}
